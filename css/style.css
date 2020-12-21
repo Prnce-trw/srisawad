@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Thonburi';
+    src: url('files/fonts/Thonburi.woff2') format('woff2'),
+        url('files/fonts/Thonburi.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* Global Styles */
+a:hover {
+    text-decoration: none;
+}
+
+/*page styling*/
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.bs-right-panel {
+    padding: 10px;
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bs-right-panel img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.bs-callout:last-child {
+    margin-bottom: 0px;
+}
+
+.bs-callout h4,
+.bs-callout h5 {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+
+.bs-callout-danger h4,
+.bs-callout-danger h5 {
+    color: #d9534f;
+}
+
+.header-title {
+    color: #fff;
+}
+
+.title-thin {
+    font-weight: 300;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%;
+}
+
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease;
+}
+
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
